@@ -1,0 +1,2 @@
+configure :sample,
+  hello: "Hello"

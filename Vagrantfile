@@ -1,7 +1,12 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+require 'config/vagrant/provisioner'
+
 Vagrant::Config.run do |config|
+
+  config.vm.provision Config::Vagrant::Provisioner
+
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.

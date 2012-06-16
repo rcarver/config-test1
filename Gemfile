@@ -2,3 +2,4 @@
 source "https://rubygems.org"
 
 gem "config", :git => "git@github.com:rcarver/config.git"
+gem "vagrant"
